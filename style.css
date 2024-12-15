@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.num-button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: rgb(55, 52, 52);
+    color: white;
+    margin-right: 7px;
+    
+    
+}
+.op-button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: orange;
+   
+}
+.display-result{
+    height: 30px;
+    width:105px;
+    color: white;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    margin-left: 40px;
+
+}

@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p> Hello World</p>
+    <div class="main">
+    <p class="display-result"></p>
+
+    <p>
+        <button class="num-button" onclick="
+        calculate('1');
+        "> 1 </button>
+
+        <button class="num-button" onclick="
+        calculate('2');
+    "> 2 </button>
+
+        <button class="num-button" onclick="
+    calculate('3');
+    "> 3 </button>
+
+        <button class="op-button" onclick="
+   calculate('+');
+    ">+</button>
+
+
+    </p>
+
+    <p>
+        <button class="num-button" onclick="
+        calculate('4');
+        "> 4 </button>
+
+        <button class="num-button"  onclick="
+    calculate('5');
+    "> 5 </button>
+
+        <button class="num-button"  onclick="
+    calculate('6');
+    "> 6 </button>
+
+        <button class="op-button" onclick="
+    calculate('-');
+    ">-</button>
+
+
+    </p>
+
+    <p>
+        <button class="num-button" onclick="
+            calculate('7');
+            "> 7 </button>
+
+        <button class="num-button"  onclick="
+       calculate('8');
+        "> 8 </button>
+
+        <button class="num-button" onclick="
+        calculate('9');
+        "> 9 </button>
+
+        <button class="op-button" onclick="
+        calculate('/');
+        ">/</button>
+
+        
+    </p>
+    <p>
+        <button class="num-button" onclick="
+        calculate('0');
+        ">0</button>
+
+        <button class="num-button" onclick="
+        calculate('.');
+        ">.</button>
+
+        <button class="num-button" onclick="
+        calculate('=');
+        localStorage.setItem('Calculation',calculation);
+        ">=</button>
+
+        <button class="op-button" onclick="
+    calculate('*');
+    ">*</button>
+
+        
+    </p>
+
+    <button class="num-button" onclick="
+       calculate('');
+       localStorage.setItem('calculation', calculation);
+        ">Clear</button>
+    </div>
+    
+<script src="script.js"></script>
 </body>
+
 </html>
